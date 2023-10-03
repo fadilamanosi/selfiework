@@ -1,0 +1,23 @@
+@import './css/base.css';
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("/assets/fonts/HelveticaNeuBold.ttf");
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "Helvetica Neue";
+    src: url("/assets/fonts/HelveticaNeueMedium.ttf");
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: "Helvetica Neue";
+    src: url("/assets/fonts/HelveticaNeueLt.ttf");
+    font-weight: light;
+  }
+
+  html {
+    font-family:  "Helvetica", serif;
+  }

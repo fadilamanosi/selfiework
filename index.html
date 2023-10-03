@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link
+    href="https://fonts.cdnfonts.com/css/helvetica-neue-55?styles=16016,16008,15981,15985,15987,15994,30135,15997,15998"
+    rel="stylesheet">
+
+  <title>Vite App</title>
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</head>
+
+<body>
+
+  <style>
+    * {
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+
+    .dots-parent {
+      top: 0px !important;
+      height: 100% !important;
+      flex-direction: column;
+    }
+
+    .paginate-icon {
+      border: 1px solid white !important;
+      background-color: transparent !important;
+    }
+
+    .paginate-icon.is-active {
+      border: 2px solid white !important;
+      background-color: white !important;
+    }
+
+    .paginate-div {
+      padding-right: 30px;
+    }
+
+    .splide__slide {
+      margin-bottom: 0px !important;
+      height: fit-content !important;
+    }
+
+    /* splide__pagination paginate-div splide__pagination--rtl */
+
+    .splide__pagination--rtl {
+      bottom: 10em !important
+    }
+  </style>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+  <script src="/src/assets/js/jquery.js"></script>
+  <!-- <script src="/src/assets/js/owl.carousel.js"></script> -->
+
+
+  <script>
+
+    window.addEventListener("load", function (event) {
+      if (location.href.indexOf('#') > 0) {
+        const id = location.href.slice(location.href.indexOf('#'))
+
+        document.querySelector(id).scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
+
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          console.log($(e.target))
+
+          document.querySelector($(e.target).attr('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+
+      });
+    });
+  </script>
+</body>
+
+</html>
