@@ -199,8 +199,12 @@
             </div>
         </div>
 
-        <div class="text-center pt-[46px] hover:underline lg:hidden block font-bold" @click="dropMore($event.target)">
+        <div v-if="toggle" class="text-center pt-[46px] hover:underline lg:hidden block font-bold" @click="dropMore($event.target)">
             See all
+        </div>
+
+        <div v-else class="text-center pt-[46px] hover:underline lg:hidden block font-bold" @click="showMore($event.target)">
+            See less
         </div>
 
     </section>
@@ -217,6 +221,11 @@ const toggle = ref(false);
 function dropMore(e) {
     toggle.value = false
     $(e).addClass('hidden')
+}
+
+function showMore(e) {
+    toggle.value = true
+    $(e).removeClass('hidden')
 }
 
 
