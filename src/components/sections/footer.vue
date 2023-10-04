@@ -8,7 +8,7 @@
                 <v-lazy-image src="/assets/images/logo.png" class="item cursor-pointer w-[100px]" />
             </div>
             <div class=" grid lg:place-items-center text-[#808080] gap-8 lg:col-span-2 col-span-4">
-                <div class="flex lg:flex-row flex-col lg:gap-11 gap-[18px] text-lg text-[#4D4D4D] select-none w-max">
+                <div class="flex lg:flex-row flex-col lg:gap-11 gap-[18px] text-lg text-[#4C4C4C] select-none w-max">
                     <a href="/#contact">Contact us</a>
                     <a href="/about">About Studio</a>
                     <a href="/#how">How it works</a>
