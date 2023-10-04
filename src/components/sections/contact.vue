@@ -1,5 +1,5 @@
 <template>
-    <section id="contact" class="lg:min-h-screen   bg-cover  relative">
+    <section id="contact" class="lg:min-h-screen bg-cover  relative">
         <div class="gradient-cover-contact">
             <v-lazy-image src="/assets/images/contact.png" src-placeholder="/assets/images/blankSquare.png"
                 class="item cursor-pointer lg:h-screen w-full h-[562px]  object-cover relative gradient-cover-contact hidden md:block" />
@@ -8,7 +8,7 @@
                 src-placeholder="/assets/images/blankSquare.png" class="md:hidden block h-[562px] w-full"></v-lazy-image>
 
             <div
-                class="grid  text-white absolute top-0 w-full h-fit  z-50 lg:pt-[107px] pt-[53px] lg:pl-[130px] pl-[17px] ">
+                class="grid  text-white absolute top-0 w-full lg:h-fit  z-50 lg:pt-[107px] pt-[53px] lg:pl-[130px] pl-[17px] ">
                 <h1 class="text-white text-[64px] font-[700] leading-[64px] pb-[42px]">
                     Contact us
                 </h1>
