@@ -9,22 +9,22 @@
 
             <div
                 class="grid  text-white absolute top-0 w-full lg:h-fit  z-50 lg:pt-[107px] pt-[53px] lg:pl-[130px] pl-[17px] ">
-                <h1 class="text-white text-[64px] font-[700] leading-[64px] pb-[42px]">
+                <h1 class="text-white lg:text-[64px] text-[40px] font-[700] leading-[64px] pb-[42px]">
                     Contact us
                 </h1>
 
                 <div class="grid pb-[24px] gap-[6px]">
-                    <p class="text-[#999]">Open Hours</p>
-                    <p>
-                        Monday - Friday: <span class="font-bold">9am - 7pm</span>
+                    <p class="text-[#999] lg:text-base text-xs">Open Hours</p>
+                    <p class="lg:text-xl text-sm">
+                        Monday - Friday: <span class="font-bold  ">9am - 7pm</span>
                     </p>
-                    <p>
+                    <p class="lg:text-xl text-sm">
                         Saturday - Sunday: <span class="font-bold">10am - 6pm</span>
                     </p>
                 </div>
 
                 <div class="grid h-fit gap-[6px]">
-                    <span class="text-[#999999] pb-[14px]">Social Media</span>
+                    <span class="text-[#999999] pb-[14px] lg:text-base text-xs">Social Media</span>
 
                     <div class="flex gap-[14px] items-center pb-[44px] ">
                         <div class="flex gap-2">
@@ -32,7 +32,7 @@
                             <twitter :fill="'white'"></twitter>
                             <instagram :fill="'white'"></instagram>
                         </div>
-                        <span>Selfieworx</span>
+                        <span class="lg:text-xl text-sm">Selfieworx</span>
                     </div>
                     
                 </div>

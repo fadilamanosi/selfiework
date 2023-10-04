@@ -8,7 +8,7 @@
                     class="item cursor-pointer w-[100px]" />
             </div>
             <div class=" grid lg:place-items-center text-[#808080] gap-8 lg:col-span-2 col-span-4">
-                <div class="flex lg:flex-row flex-col lg:gap-11 gap-[18px] text-[18px] text-[#4D4D4D] select-none w-max">
+                <div class="flex lg:flex-row flex-col lg:gap-11 gap-[18px] text-lg text-[#4D4D4D] select-none w-max">
                     <a href="/#contact">Contact us</a>
                     <a href="/about">About Studio</a>
                     <a href="/#how" >How it works</a>
@@ -17,7 +17,7 @@
             </div>
 
             <div class="flex lg:justify-end">
-                <div class="flex gap-8 flex-end">
+                <div class="flex gap-[40px] flex-end">
                     <facebook :fill="'#4D4D4D'"></facebook>
                     <twitter :fill="'#4D4D4D'"></twitter>
                     <instagram :fill="'#4D4D4D'"></instagram>
@@ -26,16 +26,16 @@
 
             <div class=" grid lg:text-[16px] text-[14px] col-span-4 lg:place-content-center lg:text-center text-[#7F7F7F]">
                 <div class="flex lg:items-center lg:gap-11 gap-4">
-                    <div class="flex items-center gap-2 ">
+                    <div class="flex items-center gap-2 text-sm">
                         <envelope></envelope>
                         <a href="mailto:hello@selfieworkx.com" >hello@selfieworkx.com</a>
                     </div>
-                    <div class="flex items-center gap-2">
+                    <div class="flex items-center gap-2 text-sm">
                         <phone></phone>
                         <a href="tel:+44 7342 741922">+44 7342 741922</a>
                     </div>
                 </div>
-                <div class=" col-span-2 ">
+                <div class=" col-span-2 text-sm">
                     <span>Unit UGJ, 9 Bradstone Road, Manchester M88WA</span>
                 </div>
             </div>
