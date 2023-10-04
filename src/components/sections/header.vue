@@ -79,7 +79,7 @@
                             <a href="/#contact" class="block  pr-4 pl-3     lg:font-[400] font-[700] ">Contact</a>
                         </li>
                         <li>
-                            <a href="/#faq" class="block  pr-4 pl-3     lg:font-[400] font-[700] ">Faq</a>
+                            <a href="/#faqs" class="block  pr-4 pl-3     lg:font-[400] font-[700] ">FAQs</a>
                         </li>
 
                     </ul>

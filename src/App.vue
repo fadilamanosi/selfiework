@@ -47,15 +47,7 @@ onMounted(() => {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.108), rgba(0, 0, 0, 0.7));
 }
 
-.gradient-cover-contact::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to left, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.684));
-}
+
 
 /* .slide-leave-from {
     opacity: 1;

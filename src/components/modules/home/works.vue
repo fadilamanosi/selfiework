@@ -13,17 +13,19 @@
                 </div>
             </div>
 
-            <div class="works-box-parent grid lg:grid-cols-3 lg:gap-2 gap-6 lg:flex-nowrap flex-wrap lg:pt-[66px] pt-[48px] h-fit">
+            <div
+                class="works-box-parent grid lg:grid-cols-3 lg:gap-2 gap-6 lg:flex-nowrap flex-wrap lg:pt-[66px] pt-[48px] h-fit">
                 <div class="works-box  relative  lg:h-[558px] md:h-full min-h-[558px]   ">
                     <div class="gradient-cover-works relative h-full">
                         <v-lazy-image src="/assets/images/how/how1.png" src-placeholder="/assets/images/blankRec.png"
                             class="item cursor-pointer h-full w-full relative" />
 
-                        <div class="absolute bottom-0 w-full  text-white z-50 grid gap-[72px] p-8">
-                            <div class="grid gap-[12px] pr-8">
+                        <div class="absolute bottom-0 w-full  text-white z-50 grid gap-[72px] p-[24px]">
+                            <div class="grid gap-3 ">
                                 <span class="text-[18px]">Booking Tickets</span>
                                 <span class="text-[14px]">
                                     Start by booking your session at our studio.
+                                    <br>
                                     You can reserve your slot online or give us a call.
                                 </span>
                             </div>
@@ -53,13 +55,13 @@
                         <v-lazy-image src="/assets/images/how/how2.png  " src-placeholder="/assets/images/blankRec.png"
                             class="item cursor-pointer   relative  h-full w-full" />
 
-                        <div class="absolute bottom-0 w-full  text-white z-50 grid gap-8 p-8">
-                            <div class="grid gap-3 pr-8">
+                        <div class="absolute bottom-0 w-full  text-white z-50 grid gap-[72px] p-[24px]">
+                            <div class="grid gap-3 ">
                                 <span class="text-[18px]">What to bring</span>
                                 <span class="text-[14px]">
-                                    On the day of your session, arrive at our studio early. Our friendly staff will
-                                    welcome
-                                    you and get you set up.
+                                    On the day of your session, arrive at our studio early.
+                                    <br>
+                                    Our friendly staff willwelcome you and get you set up.
                                 </span>
                             </div>
 
@@ -86,8 +88,8 @@
                         <v-lazy-image src="/assets/images/how/how3.png" src-placeholder="/assets/images/blankRec.png"
                             class="item cursor-pointer  relative  h-full w-full" />
 
-                        <div class="absolute bottom-0 w-full  text-white z-50 grid gap-8 p-8">
-                            <div class="grid gap-3 pr-8">
+                        <div class="absolute bottom-0 w-full  text-white z-50 grid gap-[72px] p-[24px]">
+                            <div class="grid gap-3 ">
                                 <span class="text-[18px]">What we have</span>
                                 <span class="text-[14px]">
                                     Our studio is set up to make your experience memorable, hitch-free and very

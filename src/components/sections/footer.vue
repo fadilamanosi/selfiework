@@ -12,7 +12,7 @@
                     <a href="/#contact">Contact us</a>
                     <a href="/about">About Studio</a>
                     <a href="/#how" >How it works</a>
-                    <a href="/#faq" >FAQs</a>
+                    <a href="/#faqs" >FAQs</a>
                 </div>
             </div>
 
@@ -24,11 +24,11 @@
                 </div>
             </div>
 
-            <div class=" grid lg:text-[16px] text-[14px] col-span-4 lg:place-content-center lg:text-center ">
+            <div class=" grid lg:text-[16px] text-[14px] col-span-4 lg:place-content-center lg:text-center text-[#7F7F7F]">
                 <div class="flex lg:items-center lg:gap-11 gap-4">
                     <div class="flex items-center gap-2 ">
                         <envelope></envelope>
-                        <a href="mailto:hello@selfieworkx.com">hello@selfieworkx.com</a>
+                        <a href="mailto:hello@selfieworkx.com" >hello@selfieworkx.com</a>
                     </div>
                     <div class="flex items-center gap-2">
                         <phone></phone>
@@ -61,4 +61,6 @@ import envelope from "@/components/icons/envelope.vue"
 
 
 
+
 </script>
+

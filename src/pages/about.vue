@@ -1,7 +1,7 @@
 <template>
     <Header></Header>
     <section class=" relative ">
-        <div class=" gradient-cover-about  ">
+        <div class=" gradient-cover-about relative">
             <v-lazy-image src="/assets/images/about1.png" src-placeholder="/assets/images/blankSquare.png"
                 class=" h-screen  cursor-pointer w-full lg:block hidden" />
 
@@ -9,7 +9,7 @@
                 class=" h-[767px] cursor-pointer w-full  block lg:hidden" />
 
                 
-            <div class="w-full h-fit absolute text-center text-white z-50 top-0 flex justify-center lg:px-0 px-[33px]  pt-[71px] lg:pt-[121px] ">
+            <div class=" w-full lg:h-screen h-[767px] overflow-auto absolute text-center text-white z-50 top-0 flex justify-center lg:px-0 px-[33px]  pt-[71px] lg:pt-[87px] ">
                 <div class="lg:w-[662px] grid lg:gap-11 gap-8">
                     <h1 class="lg:text-[116px] text-[40px] font-[700] ">About Us</h1>
 
@@ -50,28 +50,28 @@
     </section>
 
     <section id="gallery" class="min-h-screen ">
-        <div class="relative lg:px-28 px-[17px] pb-[32px]">
+        <div class="relative lg:px-28 px-[17px] lg:pb-[110px] pb-[32px]">
 
 
             <div class="w-full h-full  text-center text-[#4D4D4D] z-50 top-0 grid place-content-center pt-[71px] pb-[75px] ">
                 <div class="lg:w-[662px] grid h-fit">
                     <h1 class="lg:text-[116px] text-[40px] pb-[32px] font-[700]">Our Gallery</h1>
 
-                    <div class="grid gap-[20px] pb-[52px]">
-                        <p class="text-[18px]">
-                            See our enchanting spaces, installations and themes
+                    <div class="grid gap-[20px] pb-[52px] lg:px-0 px-[22px]">
+                        <p class=" text-lg font-bold">
+                            See our enchanting spaces, <br class="lg:hidden" >installations and themes
                         </p>
 
                         <p class="font-400">
                             Our props, equipment and staff are always available to make your personal or professional shoots
-                            fun, productive and everything in-between. Have a look.
+                            fun, productive and everything in-between. <br class="lg:hidden" >Have a look.
                         </p>
                     </div>
 
                     <div class="flex justify-center items-center gap-2"> 
                         <span>Let's Connect</span>
-                        <facebook :fill="'black'"></facebook>
-                        <instagram :fill="'black'"></instagram>
+                        <facebook :fill="'#4C4C4C'"></facebook>
+                        <instagram :fill="'#4C4C4C'"></instagram>
                     </div>
                 </div>
             </div>
@@ -85,13 +85,13 @@
                 <v-lazy-image src="/assets/images/about4.png" src-placeholder="/assets/images/blankSquare.png"
                     class="  object-cover cursor-pointer max-h-[523px] w-full " />
                 <v-lazy-image src="/assets/images/about5.png" src-placeholder="/assets/images/blankSquare.png"
-                    class=" h-full  object-cover cursor-pointer max-h-[523px] w-full " />
+                    class=" h-full  object-cover cursor-pointer max-h-[523px] w-full  lg:col-span-2 " />
                 <v-lazy-image src="/assets/images/about6.png" src-placeholder="/assets/images/blankSquare.png"
                     class="  object-cover cursor-pointer max-h-[523px] w-full " />
                 <v-lazy-image src="/assets/images/about7.png" src-placeholder="/assets/images/blankSquare.png"
                     class="  object-cover cursor-pointer max-h-[523px] w-full " />
                 <v-lazy-image src="/assets/images/about8.png" src-placeholder="/assets/images/blankSquare.png"
-                    class="h-full   object-cover cursor-pointer max-h-[523px] w-full " /> 
+                    class="h-full   object-cover cursor-pointer max-h-[523px] w-full lg:col-span-2" /> 
             </div>
         </div>
     </section>
@@ -111,15 +111,15 @@ import instagram from "@/components/icons/instagram.vue";
 
 
 <style>
-.gradient-cover-about::after {
+/* .gradient-cover-about::after {
     content: '';
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0.108), rgba(0, 0, 0, 0.883));
-}
+    background: linear-gradient(to right, #000000, #00000000);
+} */
 
 
 .gradient-cover-gallery::after {

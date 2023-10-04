@@ -1,5 +1,5 @@
 <template>
-    <section id="faq" class="min-h-screen bg-[#FCFCFC] lg:pt-[63px] pt-[54px] lg:px-[124px] pb-[66px] px-[17px] ">
+    <section id="faqs" class="min-h-screen bg-[#FCFCFC] lg:pt-[63px] pt-[54px] lg:px-[124px] pb-[66px] px-[17px] ">
         <div class="h-fit grid lg:gap-[47px] gap-[32px]">
             <h1 class="text-[#4D4D4D] lg:text-[64px] text-[40px] font-[700]  text-start leading-[64px]">
                 Frequently <br class="lg:hidden"> asked questions</h1>
@@ -199,7 +199,7 @@
             </div>
         </div>
 
-        <div class="text-center pt-[46px] hover:underline lg:hidden block " @click="dropMore($event.target)">
+        <div class="text-center pt-[46px] hover:underline lg:hidden block font-bold" @click="dropMore($event.target)">
             See all
         </div>
 
