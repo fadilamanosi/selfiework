@@ -1,18 +1,18 @@
 <template>
-    <footer class=" lg:pt-[89px] pt-[44px] lg:px-[126px] pl-[17px] lg:pb-[51px] pb-[47px] grid lg:gap-y-[86px] gap-y-[80px] bg-[#F6F6F6] ">
-        
+    <footer
+        class=" lg:pt-[89px] pt-[44px] lg:px-[126px] pl-[17px] lg:pb-[51px] pb-[47px] grid lg:gap-y-[86px] gap-y-[80px] bg-[#F6F6F6] ">
+
         <div class="grid grid-cols-4  items-start lg:gap-0 gap-[46px]">
             <div class="lg:col-span-1 col-span-4">
                 <!-- <img src="../assets/logo.png" alt="" class="w-[143px]"> -->
-                <v-lazy-image src="/assets/images/logo.png"
-                    class="item cursor-pointer w-[100px]" />
+                <v-lazy-image src="/assets/images/logo.png" class="item cursor-pointer w-[100px]" />
             </div>
             <div class=" grid lg:place-items-center text-[#808080] gap-8 lg:col-span-2 col-span-4">
                 <div class="flex lg:flex-row flex-col lg:gap-11 gap-[18px] text-lg text-[#4D4D4D] select-none w-max">
                     <a href="/#contact">Contact us</a>
                     <a href="/about">About Studio</a>
-                    <a href="/#how" >How it works</a>
-                    <a href="/#faqs" >FAQs</a>
+                    <a href="/#how">How it works</a>
+                    <a href="/#faqs">FAQs</a>
                 </div>
             </div>
 
@@ -26,22 +26,22 @@
 
             <div class=" grid lg:text-[16px] text-[14px] col-span-4 lg:place-content-center lg:text-center text-[#7F7F7F]">
                 <div class="flex lg:items-center lg:gap-11 gap-4">
-                    <div class="flex items-center gap-2 text-sm">
+                    <div class="flex items-center gap-2 ">
                         <envelope></envelope>
-                        <a href="mailto:hello@selfieworkx.com" >hello@selfieworkx.com</a>
+                        <a href="mailto:hello@selfieworkx.com" class="text-sm">hello@selfieworkx.com</a>
                     </div>
-                    <div class="flex items-center gap-2 text-sm">
+                    <div class="flex items-center gap-2 ">
                         <phone></phone>
-                        <a href="tel:+44 7342 741922">+44 7342 741922</a>
+                        <a href="tel:+44 7342 741922" class="text-sm">+44 7342 741922</a>
                     </div>
                 </div>
-                <div class=" col-span-2 text-sm">
-                    <span>Unit UGJ, 9 Bradstone Road, Manchester M88WA</span>
+                <div class="col-span-2">
+                    <span class=" text-sm">Unit UGJ, 9 Bradstone Road, Manchester M88WA</span>
                 </div>
             </div>
         </div>
 
-        <div class="text-[12px] text-[#656565] font-400">
+        <div class="text-xs text-[#656565] font-400">
             Copyright © 2023. Selfie Worx. All rights reserved.
         </div>
     </footer>
